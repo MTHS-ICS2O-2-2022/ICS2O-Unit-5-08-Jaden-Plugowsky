@@ -7,7 +7,7 @@
 "use strict"
 
 function calculatePressed() {
-  // This function takes two user-inputted positive numbers and this divides them together using long division, loops, and if statements
+  // This function takes two user-given positive numbers and this divides them together using long division, loops, and if statements
   // Input through textfields
   const firstNumber = parseFloat(document.getElementById("first-number").value)
   const secondNumber = parseFloat(
