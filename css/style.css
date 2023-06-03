@@ -11,20 +11,14 @@
 }
 
 body {
-  background-color: lightcoral;
-}
-
-a {
-  font-size: 30px;
-  background-color: white;
-  padding-left: 20px;
+  background-color: rgb(241, 152, 51);
 }
 
 .right-image {
   height: auto;
-  width: 450px;
+  width: auto;
   float: right;
-  margin-right: 150px;
+  margin-right: 60px;
 }
 
 .mdl-content {
