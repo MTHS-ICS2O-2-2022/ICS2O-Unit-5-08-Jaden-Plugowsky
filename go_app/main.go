@@ -33,7 +33,7 @@ func main() {
 	remainder = firstNumber
 	for remainder >= secondNumber {
 		remainder -= secondNumber
-		counter += 1
+		counter++
 	}
 
 	// Output

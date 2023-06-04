@@ -23,7 +23,7 @@ function calculatePressed() {
   while (remainder >= secondNumber) {
     // This works essentially as long division: subtracting the numerator by the denominator until you cannot anymore, and taking the amount of times you subtracted, along with the remainder.
     remainder -= secondNumber
-    counter += 1
+    counter++
     // This counter is how many times the numerator goes into the denominator, and is essentially the answer.
     // If counter ends up as 0, it can usually be assumed that the number is a decimal. Of course, remainder left behind also designates this.
   }
